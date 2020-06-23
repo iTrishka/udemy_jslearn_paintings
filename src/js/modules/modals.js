@@ -30,7 +30,7 @@ const modals = () =>{
     
     
         popup.addEventListener('click', (e) =>{
-            if(e.target === popup && closeClickOverflay){
+            if(e.target === popup){
                 windows.forEach(item =>{
                     item.style.display = 'none';
                 });
